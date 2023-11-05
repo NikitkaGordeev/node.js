@@ -1,0 +1,28 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint",
+    "prettier": "prettier",
+    "format": "npm run eslint -- ./ --fix",
+    "fix": "npm run prettier -- --write ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/NikitkaGordeev/node.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikitkaGordeev/node.js/issues"
+  },
+  "homepage": "https://github.com/NikitkaGordeev/node.js#readme",
+  "dependencies": {
+    "beautify": "^0.0.8",
+    "eslint": "^8.53.0",
+    "express": "^4.18.2",
+    "prettier": "^3.0.3"
+  }
+}
